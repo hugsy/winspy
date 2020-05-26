@@ -7,7 +7,11 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+//#include "afxres.h"
+#include <windows.h>
+#ifndef IDC_STATIC
+#define IDC_STATIC              -1
+#endif
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -545,7 +549,7 @@ BEGIN
             VALUE "FileDescription", "WinSpy"
             VALUE "FileVersion", "1.0.8.5"
             VALUE "InternalName", "WinSpy"
-            VALUE "LegalCopyright", "Copyright © 2012 Catch22 Productions"
+            VALUE "LegalCopyright", "Copyright Â© 2012 Catch22 Productions"
             VALUE "OriginalFilename", "WinSpy.exe"
             VALUE "ProductName", "WinSpy"
             VALUE "ProductVersion", "1.0.8"
